@@ -1,0 +1,36 @@
+html,body{
+    margin: 0;
+}
+
+
+.placeback{
+    height: 105vh;
+  display: flex;
+  background: rgba(0, 0, 0, 0.075);
+   /* background-image: url("Cdac 2.jpg");  */
+   /* background-image: linear-gradient(rgba(255,0,0,0.8),url("Cdac 2.jpg"); */
+  background: linear-gradient(rgb(216, 200, 200),rgb(212, 206, 206),white,rgba(255,255,255,0.02)), url("Cdac 2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.placement{
+  /* display: flex;
+  justify-content: center;
+  align-items: top; */
+  margin-top: 80vh;
+ 
+font-size: 32px;
+color: rgba(0, 0, 0, 0.85);
+}
+
+/* .beautify-album-title {
+margin-top: 12px;
+margin-bottom: 12px;
+font-size: 18px;
+color: rgba(0, 0, 0, 0.55);
+text-align: center;
+} */
+

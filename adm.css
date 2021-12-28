@@ -1,0 +1,205 @@
+html,
+body {
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgba(14, 55, 238, 0.993);
+}
+
+.parent {
+  height: 24px;
+  width: 100%;
+  background: linear-gradient(tomato, rgb(236, 236, 20));
+    position: fixed; 
+  
+
+}
+
+}
+.parent-bar{
+    display: flex;
+     position: fixed;
+    top: 25px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15, 20, 0,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: black
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+ 
+  }
+
+.parent2 {
+    height: 130vh;
+  display: flex;
+  background-color: black;
+  /* background-image: url("Cdac 2.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 125vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 100, 25, 0.8),rgba(20, 100, 0, 0.74)),url("Cdac\ 2.jpg");
+    
+    /* background: rgb(187,187,245); */
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    width: 350px;
+    height: 470px;
+    box-shadow: 0 0 40px 20px rgb(0, 0, 0);
+    perspective: 1000px;
+}
+
+.inner-box{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s; 
+}
+
+.inner-box{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+   
+
+}
+.card-back{
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+}
+.card h2{
+    color: black;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-front , .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: linear-gradient(rgba(241, 243, 234, 0.8),rgba(212, 224, 209, 0.74)),url("cdac.jpg");
+     /* background: linear-gradient(0,0,0,0.1); */
+    backface-visibility: hidden;
+}
+
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    columns: blue;
+}
+::placeholder{
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid red;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+
+.submit-btn{
+    position: relative;
+}
+
+.submit-btn::after{
+    content: '\27a4';
+    color: blue;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+.btn{
+    color: black;
+}
+
+.remember{
+        font-size: 13px;
+        margin-left: 32px;
+        margin-top: 230px;
+        color: black;
+}
+.card a{
+    color: navy;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.account{
+    font-size: 13px;
+        margin-left: 32px;
+        margin-top: 275px;
+    color: black;
+}
